@@ -1,0 +1,16 @@
+.advertisment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        height: 150px;
+        h2{
+            color: #B1B5C3;
+        }
+    }
+}

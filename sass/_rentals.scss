@@ -1,0 +1,47 @@
+.rentail__title{
+    margin-bottom: 50px;
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+.rentals{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .rental{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+}
+.rental__btn{
+    font-weight: 700;
+    border-radius: 90px;
+    border: 2px solid #E6E8EC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: calc(0.2s);
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+button:hover{
+    background: #23262F;
+    color: white;
+}
+
+// media
+@media(max-width:960px){
+    .rentals{
+        justify-content: center;
+    }
+}

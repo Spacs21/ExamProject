@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="assets/Fleet symbol.png">
+                    <h1>fleet</h1>
+                    <li><a href="#">Travelers</a></li>
+                </div>
+                <div class="navbar">
+                    <ul class="lists">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Language</a></li>
+                        <button class="lists__button">List your property</button>             
+                        <img src="assets/Notification - Bell.png" >
+                        <img src="assets/avatar.png">
+                        <div class="burger-menu" onclick="showMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <span>Welcome</span>
+            <button id="close-btn" class="close-btn" onclick="closeMenu()">&times;</button>
+        </div>
+        <ul class="sidebar-menu">
+            <li><strong>Navbar</strong></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Language</a></li>
+            <li><a href="#">List your property</a></li>
+            <li><a href="#">Travelers</a></li>
+        </ul>
+    </div>
+    <div class="container_hero">
+        <div class="hero">
+            <div class="content">
+                <div class="content__text">
+                    <h1>Car rentals </h1>
+                    <h2>Find and book a great experience.</h2>
+                    <button class="content__text__button">Start your search</button>
+                </div>
+            </div>
+            <div class="location">
+                <div class="categories">
+                    <li><a href="#">Stays</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#" class="special">Cars</a></li>
+                    <li><a href="#" class="element">Things to do</a></li>
+                </div>
+                <div class="divider"></div>
+                <div class="location__buttons">
+                    <button>Return to same location</button>
+                    <button>Return to same different location</button>    
+                </div>
+                <div class="location__dates">
+                    <div class="box">
+                        <h2>Pickup location</h2>
+                        <li style="margin-left: 0;"><a href="#">Things to do</a></li>
+                    </div>
+                    <div class="box new">
+                        <h2>Tue, May 11</h2>
+                        <li style="margin-left: 0;"><a href="#">10:00 AM</a></li>
+                    </div>
+                    <div class="box med">
+                        <h2>Fri, May 11</h2>
+                        <li style="margin-left: 0;"><a href="#">10:00 AM</a></li>
+                    </div>
+                    <img src="assets/search-btn.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="holder">
+                <div class="title">
+                    <h1>Popular destinations</h1>
+                    <p>for car rentals</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/paris.png">
+                        <h2>Paris</h2>
+                        <p>Car rentals in 86 pickup locations</p>
+                    </div>
+                    <div class="card new">
+                        <img src="assets/london.png">
+                        <h2>London</h2>
+                        <p>Car rentals in 86 pickup locations</p>
+                    </div>
+                    <div class="card new">
+                        <img src="assets/ams.png">
+                        <h2>Ams</h2>
+                        <p>Car rentals in 86 pickup locations</p>
+                    </div>
+                    <div class="card new">
+                        <img src="assets/paris.png">
+                        <h2>Paris</h2>
+                        <p>Car rentals in 86 pickup locations</p>
+                    </div>
+                    <div class="card new">
+                        <img src="assets/london.png">
+                        <h2>London</h2>
+                        <p>Car rentals in 86 pickup locations</p>
+                    </div>
+                </div>
+                <button>Show more &#10095;</button>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="banner">
+                <div class="banner__text">
+                    <p class="blue__text">SUPERCHARGE YOUR PLANNING POWERS</p>
+                    <h1>Rent a car in minutes with Fleet</h1>
+                    <p>Stacks is a production-ready library of stackable content blocks built in React Native.</p>
+                    <span>
+                        <input type="text" placeholder="Enter your phone number">
+                        <img src="assets/small circle button.png">
+                    </span>
+                    
+                </div>
+                <div class="banner_img">
+                    <img src="assets/rent-car.png" alt="">
+                    <img src="assets/phone mockup.png" class="mobile__img">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="rentail__title">
+            <h1>Explore nearby</h1>
+            <p>for car rentals</p>
+        </div>
+        <div class="rentals">
+            <div class="rental">
+                <img src="assets/paris.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/watch.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/houses.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/houses.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/church.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/watch.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/houses.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/church.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+            <div class="rental">
+                <img src="assets/watch.png">
+                <h2>London</h2>
+                <p>Car rentals in 86 pickup locations</p>
+            </div>
+        </div>
+        <button class="rental__btn">Show more &#10095;</button>
+    </div>
+
+    <div class="container">
+        <div class="title_service">
+            <p>A CREATIVE AGENCY THAT LEAD AND INSPIRE</p>
+            <h1>Amazing Services</h1>
+            <button>Contact Us</button>
+        </div>
+        
+        <div class="service">
+            <div class="service__card">
+                <img src="assets/smile.png">
+                <h3>1+M reviewers</h3>
+                <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+            </div>
+            <div class="service__card">
+                <img src="assets/Filled.png">
+                <h3>24/7 customer service</h3>
+                <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+            </div>
+            <div class="service__card">
+                <img src="assets/gift.png">
+                <h3>Free cancellation</h3>
+                <p>We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="advertisment">
+            <div class="advertisment__card">
+                <img src="assets/coco.png">
+                <h2>RotaShow</h2>
+            </div>
+            <div class="advertisment__card">
+                <img src="assets/coco.png">
+                <h2>Waves</h2>
+            </div>
+            <div class="advertisment__card">
+                <h2>Velocity</h2>
+                <img src="assets/9.png"> 
+            </div>
+            <div class="advertisment__card">
+                <img src="assets/flowers.png">
+                <h2>travelers</h2>
+            </div>
+            <div class="advertisment__card">
+                <img src="assets/statics.png">
+                <h2>goldlines</h2>
+            </div>
+            <div class="advertisment__card">
+                <img src="assets/coco.png">
+                <h2>RotaShow</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="faq-container">
+            <h1>Frequently asked questions</h1>
+            <div class="tabs">
+                <button class="tab active">General</button>
+                <button class="tab">Support</button>
+                <button class="tab">Hosting</button>
+                <button class="tab">Product</button>
+            </div>
+            <ul class="faq-list">
+                <li class="faq-item">
+                    <div class="question">
+                        01 How does it work?
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At incidunt porro sed modi. Ad deserunt, laboriosam accusantium beatae delectus, praesentium iusto corporis laborum, ut aliquam sequi! Accusantium architecto libero quasi?
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <div class="question">
+                        02 How can I set up a new website?
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi quidem aliquam architecto amet similique. Quo quos voluptatem itaque, atque in officiis eos distinctio sequi tempora expedita esse eum magnam?
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <div class="question">
+                        03 How does it work?
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusantium laudantium debitis voluptatem nesciunt ut, veniam ullam ipsam, recusandae officia illum, at eveniet exercitationem adipisci eum doloribus sit iure saepe.
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <div class="question">
+                        04 How does it work?
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, pariatur recusandae saepe dolore ipsa sit, molestias expedita id nam explicabo aspernatur necessitatibus quia earum, atque eaque sapiente iure dolorem odit.
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <div class="question">
+                        05 How does it work?
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia voluptas accusantium maxime illo adipisci ullam? Aliquam deserunt ea in. Ratione consectetur unde velit officia reiciendis perferendis delectus voluptatum eligendi.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="title_bonus">
+            <h1>Recommended pickup locations</h1>
+            <p>A lot of amazing experiences 🏝</p>
+        </div> 
+
+        <div class="bonus">
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+            <div class="bonus__card">
+                <div class="number">128</div>
+                <img src="assets/car (2).png">
+                <h2>South Virgilland</h2>
+                <p>From Rs. 1,461 per day</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="assets/Fleet symbol.png" alt="Fleet Logo">
+                    <span>fleet</span>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Download</a></li>
+                </ul>
+                <div class="footer-subscribe">
+                    <span>JOIN OUR COMMUNITY <span role="img" aria-label="fire">🔥</span></span>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Enter your email">
+                        <img src="assets/small circle button.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2021 UI8 LLC. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
